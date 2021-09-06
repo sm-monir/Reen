@@ -1,0 +1,328 @@
+/* Start All Common Css*/
+*{
+    margin: 0;
+    padding: 0;
+    outline: 0;
+}
+@font-face{
+    font-family: 'Lato', sans-serif;
+    src: url(../fonts/Lato-Bold.ttf);
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face{
+    font-family: 'Lato', sans-serif;
+    src: url(../fonts/Lato-Light.ttf);
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face{
+    font-family: 'Lato', sans-serif;
+    src: url(../fonts/Lato-Regular.ttf);
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face{
+    font-family: 'Source Sans Pro', sans-serif;
+    src: url(../fonts/SourceSansPro-Bold.ttf);
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face{
+    font-family: 'Source Sans Pro', sans-serif;
+    src: url(../fonts/SourceSansPro-Light.ttf);
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face{
+    font-family: 'Source Sans Pro', sans-serif;
+    src: url(../fonts/SourceSansPro-Regular.ttf);
+    font-weight: normal;
+    font-style: normal;
+}
+.mr{
+    margin-right: 0!important;
+}
+a{
+    text-decoration: none;
+}
+ul,ol{
+    list-style-type: none;
+}
+.clr{
+    clear: both;
+}
+.full_wrapper{
+    width: 100%;
+}
+.wrapper{
+     max-width: 1170px;
+     margin: 0 auto;
+}
+/* End All Common Css */
+
+.header{
+    background: #ffffff;
+}
+.logo{
+    width: 160px;
+    float: left;
+    padding-top: 30px;
+}
+.menu{
+    width: 1000px;
+    float: left;
+    text-align: right;
+}
+.menu li{
+    display: inline-block;
+}
+.menu li a{
+    text-transform: uppercase;
+    color: #506a85;
+    line-height: 100px;
+    padding-left: 45px;
+    display: inline-block;
+    font-family: 'Source Sans Pro', sans-serif;
+    font-size: 15px;
+    font-weight: 700;
+    transition: .5s;
+}
+.menu li a:hover{
+    color: #444444;
+}
+.banner_sction{
+    background: url(../images/Banner_1.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    padding-top: 300px;
+    padding-bottom: 307px;
+}
+.banner_text{
+    text-align: center;
+    color: #fff;
+}
+.banner_text h3{
+    font-family: 'Lato', sans-serif;
+    font-weight: 900;
+    font-size: 78px;
+    text-transform: uppercase;
+}
+.banner_text p{
+    font-family: 'Source Sans Pro', sans-serif;
+    font-size: 24px;
+    font-weight: 400;
+    color: #a3b1bf;
+    padding-bottom: 65px;
+    line-height: 33px;
+    text-transform: capitalize;
+}
+.banner_text a{
+    background:#00bc9c;
+    color: #ffffff;
+    width: 295px;
+    font-size: 18px;
+    padding: 15px 37px;
+    font-weight: 900;
+    text-transform: uppercase;
+    font-family: 'Source Sans Pro', sans-serif;
+}
+/* End banner section */
+
+
+/* Start Service section */
+.service{
+    background: #FFFFFF;
+    padding:130px 0;
+}
+.service_text{
+    text-align: center;
+}
+.service_text h3{
+    font-size: 44px;
+    font-family: 'Lato', sans-serif;
+    font-weight: 700;
+    color: #506a85;
+}
+.service_text p{
+    padding-top: 25px;
+    padding-bottom:70px;
+    width: 795px;
+    margin: 0 auto;
+    font-size: 22px;
+    line-height: 34px;
+    text-align: center;
+    color: #73879c;
+    font-family: 'Source Sans Pro', sans-serif;
+    font-weight: 400;
+}
+.single_service_item {
+    width: 368px;
+    float: left;
+    margin-right: 22px;
+    box-sizing: border-box;
+}
+.single_img{
+    width: 70px;
+    height:auto;
+    float: left;
+}
+.service_text_item {
+    width: 283px;
+    float: left;
+    margin-left: 15px;
+}
+.service_text_item h2{
+    font-size: 26px;
+    font-weight: 700;
+    font-family: 'Lato', sans-serif;
+    color: #506a85;
+}
+.service_text_item p {
+    color: #73879c;
+    margin-top: 24px;
+    font-size: 16px;
+    font-family: 'Source Sans Pro', sans-serif;
+    font-weight: 400;
+    line-height: 25px;
+    width: 288px;
+    margin: 0 auto;
+}
+/* End Service section */
+
+/* Start Service section */
+.check_latest_section{
+    padding:135px 0px;
+    background: #F2F5F7; 
+}
+.latest_text{
+    text-align: center;
+}
+.latest_text h3{
+    font-family: 'Lato', sans-serif;
+    color: #506a85;
+    font-weight: 700;
+    font-size: 44px;
+}
+.latest_text p{
+    font-family: 'Source Sans Pro', sans-serif;
+    color: #73879c;
+    font-weight: 400;
+    font-size: 22px;
+    line-height: 34px;
+    margin-top: 29px;
+    margin-bottom: 70px;
+}
+ .latest_img_box{
+     width: 48%;
+     float: left;
+     margin-right: 2%;
+ }
+ .latest_img img{
+     max-width: 100%;
+ }
+ .latest_bottom_text{
+     background: #FFFFFF;
+     padding-top:35px;
+     padding-bottom: 30px;
+     text-align: center;
+ }
+ .latest_bottom_text h3{
+     color: #506a85;
+     font-size: 20px;
+     font-family: 'Lato', sans-serif;
+     font-weight: 700;
+ }
+ .latest_bottom_text p{
+     color: #73879c;
+     font-size: 14px;
+     font-weight: 400;
+     font-family: 'Source Sans Pro', sans-serif;
+     padding-top: 10px;
+ }
+ .fourth_img_box {
+    width: 23%;
+    float: left;
+    margin-right: 2%;
+    box-sizing: border-box;
+    margin-top: 70px;
+}
+ .fourth_img img{
+     max-width: 100%;
+ }
+/*Start Service Section */
+
+/* Start Footer Section  */
+/* Start Want work section */
+.want_work_section{
+    background: #ffffff;
+    padding-top: 124px;
+    padding-bottom: 122px;
+}
+.want_text{
+    text-align: center;
+}
+.want_text h3{
+    color: #506a85;
+    font-size: 44px;
+    font-weight: 700;
+    font-family: 'Lato', sans-serif;
+}
+.want_text p{
+    color: #73879c;
+    font-size: 21px;
+    font-weight: 400;
+    width: 746px;
+    line-height: 34px;
+    text-align: center;
+    margin: 27px auto 27px auto;
+    font-family: 'Source Sans Pro', sans-serif;
+}
+.want_button{
+    text-align: center;
+}
+.want_button a{
+    color: #ffffff;
+    font-weight: 700;
+    font-size: 15px;
+    font-family: 'Source Sans Pro', sans-serif;
+    display: inline-block;
+    padding: 20px 27px;
+    text-transform: uppercase;
+    border-radius: 7px;
+    background: #00BC9C;
+}
+/* End Want work section */
+.socket_section{
+    background: #283645;
+    padding:35px 0;
+}
+.socket_text{
+    width: 35%;
+    float: left;
+}
+.socket_text h3{
+    color: #707e8c;
+    font-size: 14px;
+    font-weight: 400;
+    font-family: 'Source Sans Pro', sans-serif;
+    line-height:27px;
+}
+.socket_menu{
+    width: 65%;
+    float: left;
+    text-align: right;
+}
+.socket_menu li{
+    display:inline-block
+}
+.socket_menu li a{
+    color: #707e8c;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 22px;
+    font-family: 'Source Sans Pro', sans-serif;
+    display:inline-block
+}
+
